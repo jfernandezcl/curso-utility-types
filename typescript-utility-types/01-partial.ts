@@ -9,6 +9,7 @@ interface User {
   name: string;
   email: string;
   isAdmin: boolean;
+  age: number;
 }
 
 function updateUser(id: number, fieldsToUpdate: Partial<User>) {
@@ -25,6 +26,7 @@ interface ProductFilters {
   category: string;
   minPrice: number;
   maxPrice: number;
+  color: string;
 }
 
 function findProducts(filters: Partial<ProductFilters>) {
