@@ -19,5 +19,6 @@ const productComplete: ProductComplete = {
 
 const productCompleteWithError: ProductComplete = {
   id: 1,
-  // ❌ Error: Missing properties 'name' and 'price'
+  name: 'Switch 2',
+  price: 300,
 }
