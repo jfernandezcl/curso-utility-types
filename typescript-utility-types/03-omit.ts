@@ -26,5 +26,4 @@ const ironManBasic: AvengerBasicInfo = {
 const ironManBasicError: AvengerBasicInfo = {
   name: 'Iron Man',
   power: 9000,
-  weapon: 'Un millionario con armadura' // Error: La propiedad 'weapon' no existe en el tipo 'AvengerBasicInfo'
 }
