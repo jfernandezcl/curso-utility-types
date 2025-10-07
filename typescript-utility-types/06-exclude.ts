@@ -19,6 +19,6 @@ type Animal =
 type NoCatAllowed = Exclude<Animal, { kind: "cat" }>
 
 const animal: NoCatAllowed = {
-  kind: "dog", // Error
+  kind: "dog", // No es un error porque solo estamos diciendo que no puede ser cat
   bark: 'woooofff'
 }
