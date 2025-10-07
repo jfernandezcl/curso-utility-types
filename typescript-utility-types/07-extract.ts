@@ -13,3 +13,5 @@ type Pokemon =
 type WaterPokemon = Extract<Pokemon, { waterLevel: number }>
 
 const waterPokemon: WaterPokemon = { kind: "squirtle", waterLevel: 100 }
+
+// selecciona solo los tipos que coinciden con { waterLevel: number }, y waterPokemon cumple ese tipo
