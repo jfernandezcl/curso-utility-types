@@ -18,3 +18,6 @@ const authResponse: AuthResponse = {
   status: 401,
   error: "Unauthorized"
 }
+
+//Extraemos el tipo que esa función nos devuelve y no es necesario crearlo de nuevo
+// Si no cumple lo que le indicamos nos dará un error
