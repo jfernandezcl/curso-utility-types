@@ -12,6 +12,5 @@ const pizza: Readonly<Pizza> = {
 }
 
 // no se pueden modificar las propiedades
-pizza.name = 'Pepperoni'; // Error
-pizza.toppings.push('Pepperoni'); // Error
-
+pizza.name = 'Pepperoni'; // Esto ocurre porque al usar Readonly<Pizza>, todas las propiedades de Pizza (incluyendo name) se vuelven inmutables.
+pizza.toppings.push('Pepperoni'); // convierte el array en solo lectura, lo que significa que no puedes modificarlo con métodos como push, pop, splice, etc.
