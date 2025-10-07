@@ -14,3 +14,7 @@ const sendMessageParams: SendMessageParams = [
 
 sendMessage(...sendMessageParams)
 
+/*
+Crea una tupla con los tipos de los parámetros de la función. Para reutilizar
+esos tipos sin tener que volver a escribirlos porque ya los tenemos ahí
+*/
